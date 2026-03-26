@@ -1,0 +1,20 @@
+# Requirements pinned for reproducibility and supply-chain safety.
+# Run: pip install -r requirements.txt
+
+# Microsoft Graph API authentication
+msal==1.31.0
+
+# HTTP client (Graph API calls)
+requests==2.32.3
+
+# Google Gemini SDK
+google-generativeai==0.8.3
+
+# Gmail API
+google-api-python-client==2.154.0
+google-auth==2.37.0
+google-auth-oauthlib==1.2.1
+google-auth-httplib2==0.2.0
+
+# Environment variable loading
+python-dotenv==1.0.1

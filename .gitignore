@@ -1,0 +1,25 @@
+# Secrets — never commit these
+.env
+
+# Runtime files
+*.log
+*.jsonl
+logs/
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Docker
+.dockerignore
+
+# IDE
+.vscode/
+.idea/
+*.swp
